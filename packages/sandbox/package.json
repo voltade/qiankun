@@ -15,8 +15,8 @@
   "author": "Kuitos",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.26.10",
-    "lodash": "^4.17.11",
+    "@babel/runtime": "^7.28.2",
+    "lodash": "^4.17.21",
     "@voltade/qiankun-shared": "workspace:^"
   },
   "devDependencies": {

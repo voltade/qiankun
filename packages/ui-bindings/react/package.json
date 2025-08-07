@@ -13,12 +13,12 @@
   "author": "Bravepg",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "@voltade/qiankun-ui-shared": "workspace:^"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.37.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
