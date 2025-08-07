@@ -89,7 +89,7 @@ export async function mountMicroApp({
       setLoading?.(false);
     });
 
-  (['loadPromise', 'bootstrapPromise'] as const).forEach((key) => {
+  (['loadPromise', 'initPromise'] as const).forEach((key) => {
     const promise = microApp[key];
 
     promise.catch((e: Error) => {
@@ -133,11 +133,11 @@ export function updateMicroApp({
             const updatingTimestamp = microApp._updatingTimestamp!;
             if (Date.now() - updatingTimestamp < 200) {
               console.warn(
-                `[@qiankunjs/ui-shared] It seems like microApp ${name} is updating too many times in a short time(200ms), you may need to do some optimization to avoid the unnecessary re-rendering.`,
+                `[@voltade/qiankun-ui-shared] It seems like microApp ${name} is updating too many times in a short time(200ms), you may need to do some optimization to avoid the unnecessary re-rendering.`,
               );
             }
 
-            console.info(`[@qiankunjs/ui-shared}] MicroApp ${name} is updating with props: `, props);
+            console.info(`[@voltade/qiankun-ui-shared}] MicroApp ${name} is updating with props: `, props);
             microApp._updatingTimestamp = Date.now();
           }
 

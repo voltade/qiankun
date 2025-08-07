@@ -7,7 +7,7 @@ import {
   getOwnPropertyNames,
   hasOwnProperty,
   keys,
-} from '@qiankunjs/shared';
+} from '@voltade/qiankun-shared';
 import { nativeGlobal } from '../../consts';
 import { isPropertyFrozen } from '../../utils';
 import { globalsInBrowser } from '../globals';

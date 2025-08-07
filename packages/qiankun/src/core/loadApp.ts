@@ -2,10 +2,10 @@
  * @author Kuitos
  * @since 2023-04-25
  */
-import type { LoaderOpts } from '@qiankunjs/loader';
-import { loadEntry } from '@qiankunjs/loader';
-import type { Sandbox } from '@qiankunjs/sandbox';
-import { createSandboxContainer, nativeGlobal } from '@qiankunjs/sandbox';
+import type { LoaderOpts } from '@voltade/qiankun-loader';
+import { loadEntry } from '@voltade/qiankun-loader';
+import type { Sandbox } from '@voltade/qiankun-sandbox';
+import { createSandboxContainer, nativeGlobal } from '@voltade/qiankun-sandbox';
 import {
   defineProperty,
   hasOwnProperty,
@@ -15,7 +15,7 @@ import {
   moduleResolver as defaultModuleResolver,
   transpileAssets,
   warn,
-} from '@qiankunjs/shared';
+} from '@voltade/qiankun-shared';
 import { concat, isFunction, mergeWith } from 'lodash';
 import type { ParcelConfigObject } from 'single-spa';
 import getAddOns from '../addons';
@@ -109,7 +109,7 @@ export default async function loadApp<T extends ObjectType>(
 
   const lifecycles = await lifecyclesPromise;
   if (!lifecycles) throw new QiankunError(`${appName} entry ${entry} load failed as it not export lifecycles`);
-  const { bootstrap, mount, unmount, update } = getLifecyclesFromExports(
+  const { init, mount, unmount, update } = getLifecyclesFromExports(
     lifecycles,
     appName,
     global,
@@ -122,7 +122,7 @@ export default async function loadApp<T extends ObjectType>(
 
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      bootstrap,
+      init,
 
       mount: [
         async () => {

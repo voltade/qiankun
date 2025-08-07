@@ -1,5 +1,5 @@
 {
-  "name": "qiankun",
+  "name": "@voltade/qiankun",
   "version": "3.0.0-rc.19",
   "description": "A completed implementation of Micro Frontends",
   "keywords": [
@@ -32,11 +32,11 @@
   "homepage": "https://github.com/kuitos/qiankun#readme",
   "dependencies": {
     "@babel/runtime": "^7.26.10",
-    "@qiankunjs/loader": "workspace:^",
-    "@qiankunjs/sandbox": "workspace:^",
-    "@qiankunjs/shared": "workspace:^",
     "lodash": "^4.17.11",
-    "single-spa": "^6.0.0"
+    "@voltade/qiankun-loader": "workspace:^",
+    "@voltade/qiankun-sandbox": "workspace:^",
+    "@voltade/qiankun-shared": "workspace:^",
+    "single-spa": "^7.0.0-beta.8"
   },
   "devDependencies": {
     "@types/vfile-message": "1.x"

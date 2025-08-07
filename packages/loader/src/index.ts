@@ -1,12 +1,12 @@
-import type { Sandbox } from '@qiankunjs/sandbox';
-import { qiankunHeadTagName } from '@qiankunjs/sandbox';
+import type { Sandbox } from '@voltade/qiankun-sandbox';
+import { qiankunHeadTagName } from '@voltade/qiankun-sandbox';
 import type {
   AssetsTranspilerOpts,
   BaseTranspilerOpts,
   NodeTransformer,
   ScriptTranspilerOpts,
-} from '@qiankunjs/shared';
-import { Deferred, prepareDeferredQueue, QiankunError } from '@qiankunjs/shared';
+} from '@voltade/qiankun-shared';
+import { Deferred, prepareDeferredQueue, QiankunError } from '@voltade/qiankun-shared';
 import { createTagTransformStream } from './TagTransformStream';
 import WritableDOMStream from './writable-dom';
 

@@ -4,7 +4,7 @@
  * @since 2020-10-13
  */
 
-import { Deferred, QiankunError } from '@qiankunjs/shared';
+import { Deferred, QiankunError } from '@voltade/qiankun-shared';
 import type { noop } from 'lodash';
 import { nativeDocument, nativeGlobal, qiankunHeadTagName } from '../../consts';
 import { rebindTarget2Fn } from '../../core/membrane/utils';

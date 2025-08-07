@@ -51,7 +51,7 @@ export function loadMicroApp<T extends ObjectType>(
     return {
       ...microAppConfig,
       // empty bootstrap hook which should not run twice while it calling from cached micro app
-      bootstrap: () => Promise.resolve(),
+      init: () => Promise.resolve(),
     };
   };
 

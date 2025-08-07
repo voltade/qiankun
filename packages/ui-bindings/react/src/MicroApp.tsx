@@ -7,7 +7,7 @@ import {
   mountMicroApp,
   updateMicroApp,
   omitSharedProps,
-} from '@qiankunjs/ui-shared';
+} from '@voltade/qiankun-ui-shared';
 import React, { type Ref, forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import ErrorBoundary from './ErrorBoundary';
 import MicroAppLoader from './MicroAppLoader';

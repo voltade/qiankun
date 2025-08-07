@@ -1,4 +1,4 @@
-import { Deferred } from '@qiankunjs/shared';
+import { Deferred } from '@voltade/qiankun-shared';
 import { noop } from 'lodash';
 import type { StartOpts } from 'single-spa';
 import { registerApplication, start as startSingleSpa } from 'single-spa';

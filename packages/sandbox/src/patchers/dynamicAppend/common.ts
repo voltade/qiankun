@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/unbound-method */
-import type { AssetsTranspilerOpts, ScriptTranspilerOpts } from '@qiankunjs/shared';
+import type { AssetsTranspilerOpts, ScriptTranspilerOpts } from '@voltade/qiankun-shared';
 /**
  * @author Kuitos
  * @since 2019-10-21
  */
-import { prepareDeferredQueue, warn } from '@qiankunjs/shared';
+import { prepareDeferredQueue, warn } from '@voltade/qiankun-shared';
 import { qiankunHeadTagName } from '../../consts';
 import type { SandboxConfig } from './types';
 

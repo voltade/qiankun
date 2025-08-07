@@ -12,8 +12,8 @@ import {
   isVue2,
 } from 'vue-demi';
 import type { AppConfiguration, LifeCycles } from 'qiankun';
-import type { MicroAppType } from '@qiankunjs/ui-shared';
-import { mountMicroApp, omitSharedProps, unmountMicroApp, updateMicroApp } from '@qiankunjs/ui-shared';
+import type { MicroAppType } from '@voltade/qiankun-ui-shared';
+import { mountMicroApp, omitSharedProps, unmountMicroApp, updateMicroApp } from '@voltade/qiankun-ui-shared';
 
 import MicroAppLoader from './MicroAppLoader';
 import ErrorBoundary from './ErrorBoundary';

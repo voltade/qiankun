@@ -1,5 +1,5 @@
 {
-  "name": "@qiankunjs/vue",
+  "name": "@voltade/qiankun-vue",
   "version": "0.0.1-rc.1",
   "description": "vue binding for qiankun",
   "main": "./dist/cjs/index.js",
@@ -13,8 +13,8 @@
   "author": "linghaoSu",
   "license": "MIT",
   "dependencies": {
-    "@qiankunjs/ui-shared": "workspace:^",
     "lodash": "^4.17.11",
+    "@voltade/qiankun-ui-shared": "workspace:^",
     "vue-demi": "^0.14.6"
   },
   "devDependencies": {

@@ -15,6 +15,8 @@ type CompartmentGlobalId = `${typeof compartmentGlobalIdPrefix}${string}${typeof
 
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore: TS2374: Duplicate index signature for type '__compartment_globalThis__${string}__'.
     [p: CompartmentGlobalId]: WindowProxy | undefined;
   }
 }

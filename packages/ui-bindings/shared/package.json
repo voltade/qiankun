@@ -1,5 +1,5 @@
 {
-  "name": "@qiankunjs/ui-shared",
+  "name": "@voltade/qiankun-ui-shared",
   "version": "0.0.1-rc.1",
   "description": "ui binding shared for qiankun",
   "main": "./dist/cjs/index.js",
@@ -16,10 +16,10 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "qiankun": "workspace:^"
+    "@voltade/qiankun": "workspace:^"
   },
   "peerDependencies": {
-    "qiankun": "^3.0.0-rc.15"
+    "@voltade/qiankun": "^3.0.0-rc.15"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

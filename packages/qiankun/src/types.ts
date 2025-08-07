@@ -2,7 +2,7 @@
  * @author Kuitos
  * @since 2023-04-25
  */
-import type { LoaderOpts } from '@qiankunjs/loader';
+import type { LoaderOpts } from '@voltade/qiankun-loader';
 import type { LifeCycles as ParcelLifeCycles, Parcel, RegisterApplicationConfig } from 'single-spa';
 
 declare global {

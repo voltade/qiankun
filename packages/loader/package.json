@@ -1,5 +1,5 @@
 {
-  "name": "@qiankunjs/loader",
+  "name": "@voltade/qiankun-loader",
   "version": "0.0.1-rc.19",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -14,9 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.26.10",
-    "@qiankunjs/sandbox": "workspace:^",
-    "@qiankunjs/shared": "workspace:^",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "@voltade/qiankun-sandbox": "workspace:^",
+    "@voltade/qiankun-shared": "workspace:^"
   },
   "devDependencies": {
     "import-html-entry": "^1.12.0",

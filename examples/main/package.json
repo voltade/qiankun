@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "@qiankunjs/react": "^0.0.1-rc.12",
+    "@voltade/qiankun-react": "^0.0.1-rc.12",
     "qiankun": "^3.0.0-rc.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

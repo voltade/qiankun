@@ -1,4 +1,4 @@
-import { hasOwnProperty } from '@qiankunjs/shared';
+import { hasOwnProperty } from '@voltade/qiankun-shared';
 import { without } from 'lodash';
 import { Compartment } from '../compartment';
 import { globalsInES2015 } from '../globals';

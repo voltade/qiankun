@@ -1,4 +1,4 @@
-import { defineProperty, getOwnPropertyDescriptor, getOwnPropertyNames, hasOwnProperty } from '@qiankunjs/shared';
+import { defineProperty, getOwnPropertyDescriptor, getOwnPropertyNames, hasOwnProperty } from '@voltade/qiankun-shared';
 import { isBoundedFunction, isCallable, isConstructable } from '../../utils';
 
 const functionBoundedValueMap = new WeakMap<CallableFunction, CallableFunction>();

@@ -1,4 +1,4 @@
-import { hasOwnProperty } from '@qiankunjs/shared';
+import { hasOwnProperty } from '@voltade/qiankun-shared';
 
 let firstGlobalProp: string | undefined, secondGlobalProp: string | undefined, lastGlobalProp: string | undefined;
 

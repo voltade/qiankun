@@ -1,1 +1,1 @@
-export { isRuntimeCompatible } from '@qiankunjs/shared';
+export { isRuntimeCompatible } from '@voltade/qiankun-shared';

@@ -1,5 +1,5 @@
 {
-  "name": "@qiankunjs/sandbox",
+  "name": "@voltade/qiankun-sandbox",
   "version": "0.0.1-rc.16",
   "description": "qiankun sandbox",
   "main": "./dist/cjs/index.js",
@@ -16,8 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.26.10",
-    "@qiankunjs/shared": "workspace:^",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "@voltade/qiankun-shared": "workspace:^"
   },
   "devDependencies": {
     "globals": "^13.20.0"

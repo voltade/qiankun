@@ -1,4 +1,4 @@
-import { getOwnPropertyDescriptor, hasOwnProperty } from '@qiankunjs/shared';
+import { getOwnPropertyDescriptor, hasOwnProperty } from '@voltade/qiankun-shared';
 
 const fnRegexCheckCacheMap = new WeakMap<CallableFunction, boolean>();
 
